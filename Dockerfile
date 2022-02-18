@@ -8,4 +8,4 @@ COPY app/mysite/ /app
 WORKDIR /app/mysite
 
 ENTRYPOINT ["bash"]
-CMD ["-c", "entryppoint.sh"]
+CMD ["-c", "./entrypoint.sh"]
