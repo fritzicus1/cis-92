@@ -82,6 +82,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #}
 
 import os
+
 DATABASES = {
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
